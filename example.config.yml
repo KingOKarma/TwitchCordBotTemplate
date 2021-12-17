@@ -1,0 +1,31 @@
+botUsername: This is your TWITCH BOT's username (In lower case)
+
+clientId: Your Client ID
+# When getting your client ID
+
+#Twitch Dev console can be found at:
+#https://dev.twitch.tv/console/
+clientSecret: This is your client secret you can obtain it from the offical twitch dev dashboard
+
+discordIntents: 
+-  "DIRECT_MESSAGES"
+-  "DIRECT_MESSAGE_REACTIONS"
+-  "GUILDS"
+-  "GUILD_BANS"
+-  "GUILD_EMOJIS_AND_STICKERS"
+-  "GUILD_INTEGRATIONS"
+-  "GUILD_INVITES"
+-  "GUILD_MEMBERS"
+-  "GUILD_MESSAGES"
+-  "GUILD_MESSAGE_REACTIONS"
+-  "GUILD_PRESENCES"
+-  "GUILD_VOICE_STATES"
+-  "GUILD_WEBHOOKS"
+
+discordToken: "Your Discord Token"
+
+discordPrefix: "!"
+twitchPrefix: "!"
+
+twitchUsername: Put Your Twitch Username here in full lowercase letters
+# If your hostname also has a path prefix you can go into main.ts and edit under "port" in "ReverseProxyAdapter":  "pathprefix" same case for the external port
